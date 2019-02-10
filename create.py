@@ -2,7 +2,7 @@
 
 import psycopg2
 
-conn = psycopg2.connect(database = "testdb2", user = "postgres", password = "namespace1", host = "127.0.0.1", port = "5432")
+conn = psycopg2.connect(database = "testdb2", user = "postgresql", password = "namespace1", host = "sample-database.czgprnseypbr.us-east-1.rds.amazonaws.com", port = "5432")
 print ('Opened database successfully')
 
 cur = conn.cursor()
